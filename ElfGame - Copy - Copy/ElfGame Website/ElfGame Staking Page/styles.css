@@ -1,0 +1,327 @@
+body{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('background.png');
+    min-height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.backicon {
+    margin: 10px 10px;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    position: absolute;
+}
+
+#infoSection{
+    margin-top: 60px;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(158, 158, 158, 0.3);
+    font-family: 'Roboto', sans-serif;
+    /* 300,400,700 */
+    font-weight: 700;
+}
+
+.mintAndWand{
+    /* margin-left: 40%;
+    margin-top: 15%; */
+    margin-left: 15%;
+}
+#amountMintDiv{
+    width: auto;
+    margin-top: 12%;  
+    float: left;
+}
+
+.buttonMint{
+    margin-top: 10%;
+    padding: 0;
+}
+
+#mintAmount{
+    width: 10%;
+    color: rgb(0, 0, 0);
+}
+
+
+#bigSection{
+    
+    width: 49%;
+    margin: 5px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgba(158, 158, 158, 0.3);
+    -webkit-box-shadow: 10px 7px 16px 8px rgba(0,0,0,0.95); 
+    box-shadow: 10px 7px 16px 8px rgba(0,0,0,0.95);
+    
+}
+
+.UnstakedElfsMainSection, .UnstakedOrcsMainSection, .StakedElfsMainSection, .StakedOrcsMainSection{
+    width: 49%;
+    margin: 5px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgba(158, 158, 158, 0.3);
+    -webkit-box-shadow: 10px 7px 16px 8px rgba(0,0,0,0.95); 
+    box-shadow: 10px 7px 16px 8px rgba(0,0,0,0.95);
+}
+
+
+
+.UnstakedElfsTemporary, .UnstakedOrcsTemporary, .StakedElfsTemporary, .StakedOrcsTemporary{
+    display: grid;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: rgba(0, 0, 0, .3);
+    margin: 5px;
+    width: auto;
+    height: 210px;
+    overflow: auto;
+    white-space: nowrap;
+    grid-template-columns: repeat(auto-fit, minmax(127px, max-content));
+}
+
+
+
+#idParagraph{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.timestampParagraph{
+    text-align: center;
+    margin: 0;
+}
+
+.rewardTokensAmountClass{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nft{
+    background-color: rgba(255, 255, 255, 0.205);
+    color: white;
+    float: left;
+    margin: 4px;
+    height: 210px;
+    width: 130px;
+}
+
+.nft:hover{
+    background-color: rgba(0, 0, 0, 0.106);
+    cursor: pointer;
+}
+
+.selected{
+    background-color: rgba(0, 0, 0, 0.453);
+    color: white;
+    float: left;
+    margin: 4px;
+    height: 200px;
+    width: 130px;
+}
+
+.selected:hover{
+    cursor: pointer;
+}
+
+
+
+#NFTImage{
+    height: 130px;
+    width: auto;
+    
+}
+
+.bigSectionButtons{
+    margin: 15px;
+}
+
+.bigSectionButtons:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+
+
+/* --------------------
+BUTTONS
+-------------------------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 20px 40px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    justify-content: center;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+    background-color: #0000003e;
+    border: 1px solid #ffffff;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #000000;
+
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #000000;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #000000;
+    color: #fff;
+}
+
+.btn-plus {
+  padding: 15px 65px !important; 
+}
+
+.btn-minus {
+    margin: 10px 0;
+    padding: 10px 50px !important; 
+}
+
+.btn-small {
+    margin: 10px 0;
+    padding: 5px 40px !important; 
+}
+
+.buttonBack{
+    height: 20px;
+    width: 50px;
+    margin: 10px;
+}
+
+@media only screen and (max-width:1200px){
+    .mintAndWand{
+        margin-left: 40% ;
+        margin-top: 25%;
+    }
+    
+}
+
+@media only screen and (max-width:991px){
+    .mintAndWand{
+        margin-left: 40% ;
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width:767px){
+    #infoSection{
+        width: 100%;
+    }
+    .mintAndWand{
+        margin-left: 25% ;
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .mintAndWand{
+        margin-left: 38% ;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width:470px){
+    .mintAndWand{
+        margin-left: 35% ;
+        margin-top: 10%;
+    }
+    .btn-small {
+        margin: 10px 0;
+        padding: 5px 30px !important; 
+    }
+    .btn-minus {
+        margin: 10px 0;
+        padding: 5px 30px !important; 
+    }
+    #bigSection a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575.98px) and (max-width: 767.98px){
+    body{
+        height: 100%;
+        width: 100vh;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .stakingcol{
+        margin-left: 0;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .stakingcol div{
+        display: inline-block;
+    }
+
+    #infoSection{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:391px) {
+   
+    body{
+        height: 100%;
+        width: 100vh;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .stakingcol{
+        margin-left: 0;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .stakingcol div{
+        display: inline-block;
+    }
+
+    #infoSection{
+        height: auto;
+    }  
+   
+   
+}

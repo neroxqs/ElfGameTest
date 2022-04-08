@@ -1,0 +1,139 @@
+/* --------------------
+REUSABLE COMPONENTS
+-------------------------*/
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.navbar{
+    background-color: #0000002e;
+}
+ 
+/* --------------------
+BUTTONS
+-------------------------*/
+
+.btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 20px 40px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+    justify-content: center;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+    background-color: #0000004e;
+    border: 1px solid #ffffff;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #000000;
+
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #0000008d;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #000000;
+    color: #fff;
+}
+
+.btn-plus {
+  padding: 15px 65px !important; 
+}
+
+/* --------------------
+SECTIONS
+-------------------------*/
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+}
+
+.hero-section{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box {
+    margin-top: 20px;
+   
+}
+
+.hero-text-box h1 {
+    font-size: 52px;
+}
+
+.hero-text-box p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+nav {
+    color: #fff;
+}
+
+.walletAddress{
+    right: 1%;
+    position: fixed;
+    list-style: none;
+}
+
+#walletHeader{
+    color: #fff;
+}
+
+.walletResponsive{
+    display: none;
+}
+
+.main-footer {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.main-footer .footer-icon {
+    margin-left: 20px;
+    color: #fff;
+}
